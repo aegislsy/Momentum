@@ -1,8 +1,11 @@
-<<<<<<< HEAD
+#container {
+    display:block;
+    text-align: center;
+    background-color: black;
+    color:greenyellow;
+
+}
+
 .hidden {
     display:none;
-=======
-.hidden {
-    display:none;
->>>>>>> bd23901fd39a1042b9feca637747a0b064a4530b
 }
