@@ -47,4 +47,4 @@ const quotes = [
   const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
   
   quote.innerText= todaysQuote.quote;
-  author.innerText = todaysQuote.quthor;
+  author.innerText = todaysQuote.author;
