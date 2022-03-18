@@ -1,1 +1,1 @@
-Vainiila JS Challange
+Vaniila JS Challange
