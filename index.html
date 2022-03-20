@@ -8,39 +8,45 @@
     <title>Momentum App</title>
 </head>
 <body>
-
-    <div id = "container">
-
+<div id = "container">
 <!--User-->    
-    <div id = "login" class="divide">  
+    <div id = "login" class="card">  
         <form class="hidden" id = "login-form">
-            <input required maxlength = "15" type = "text" placeholder = "What is your name?">
-            <input type ="submit" value = "Log In"> 
+            <input  class ="input" required maxlength = "15" type = "text" placeholder = "What is your name?">
+            <input   class ="input" type ="submit" value = "Log In"> 
         </form>
         <h1 id="greeting" class="hidden"></h1>
     </div>  
 <!--Clock-->
-    <div id ="clock-box" class="divide">
+    <div id ="clock-box" class="card">
         <h2 id ="clock">00:00:00</h2>
     </div>
 <!--Todo-->
-    <div id = "todo" class="divide"> 
-        <form id="todo-form">
-            <input type="text" placeholder="write a to do and press enter" required>
-        </form>
-        <ul id ="todo-list">       
+    <div id = "todo" class="card"> 
+        <div clss = "left">
+            <form id="todo-form">
+                <input  class ="input" type="text" placeholder="write a to do and press enter" required>
+            </form>
+        </div>
+            <ul id ="todo-list">       
         </ul>
     </div>  
 <!--Quote-->
-    <div id = "quote" class="divide">
+    <div id = "quote" class="card">
         <span> </span>        
         <span> </span>
     </div>
 <!--Weather-->
-    <div id ="weather" class="divide"> 
+    <div id ="weather" class="card"> 
         <span></span>
         <span></span>    
     </div>
+<!--Ect-->
+    <div class="card">
+        
+
+    </div>
+
    <script src="js/greetings.js"></script>
    <script src="js/clock.js"></script>
    <script src="js/quotes.js"></script>
@@ -48,14 +54,15 @@
    <script src="js/todo.js"></script>
    <script src="js/weather.js"></script>
    <script src="js/vanilla-tilt.js"></script>
-   <script>
-       VanillaTilt.init(document.querySelector(".divide"), {
+ <script>
+       VanillaTilt.init(document.querySelector(".card"), {
 		max: 25,
 		speed: 400,
         glare: true,
         "max-glare": 1,
        });
    </script>
+
 </div>
 
 </body>
