@@ -11,39 +11,36 @@
 
     <div id = "container">
 
+<!--User-->    
     <div id = "login" class="divide">  
         <form class="hidden" id = "login-form">
             <input required maxlength = "15" type = "text" placeholder = "What is your name?">
             <input type ="submit" value = "Log In"> 
         </form>
+        <h1 id="greeting" class="hidden"></h1>
     </div>  
-
+<!--Clock-->
     <div id ="clock-box" class="divide">
         <h2 id ="clock">00:00:00</h2>
     </div>
-
-    <div id = "todo" class="divide">
-        <h1 id="greeting" class="hidden"></h1>
-    </div>
-
-    <div class="divide">
+<!--Todo-->
+    <div id = "todo" class="divide"> 
         <form id="todo-form">
             <input type="text" placeholder="write a to do and press enter" required>
         </form>
         <ul id ="todo-list">       
         </ul>
     </div>  
-
+<!--Quote-->
     <div id = "quote" class="divide">
         <span> </span>        
         <span> </span>
     </div>
-
+<!--Weather-->
     <div id ="weather" class="divide"> 
         <span></span>
         <span></span>    
     </div>
-
    <script src="js/greetings.js"></script>
    <script src="js/clock.js"></script>
    <script src="js/quotes.js"></script>
