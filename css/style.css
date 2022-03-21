@@ -36,7 +36,6 @@ body {
     width:30vw;
     height:30vh;
     margin: 1em;
-    padding: 3em;
     justify-content: center;
     overflow: hidden;
     align-items: center;
@@ -46,7 +45,7 @@ body {
 }
 .input {
     background: transparent;
-    width: 200px;
+    width: 20em;
     padding: 1em;
     margin-bottom: 2em;
     border: none;  
@@ -55,13 +54,15 @@ body {
     box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
     color: #fff;
     transition: all 0.2s ease-in-out;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.2)
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
 }
 ul {
     list-style:none;
 }
 .left{
-    display:block;
+    position:relative;
+    display:flex;
     margin-right: 10vw;
 }
 button {
@@ -82,3 +83,10 @@ button:hover{
     font-size:4vw;
     text-align: center;
   }
+
+#login {
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
