@@ -65,6 +65,10 @@ ul {
     display:flex;
     margin-right: 10vw;
 }
+.right{
+    position:relative;
+    display:flex;
+}
 button {
     background: transparent;
     width: 30px;
@@ -74,7 +78,6 @@ button {
     color: #fff;
 }
 button:hover{
-    background-color:white;
     transition: all 0.2s ease-in-out;
 }
 #clock {
@@ -87,6 +90,12 @@ button:hover{
 #login {
     position: relative;
     display:flex;
+    align-items:center;
+    justify-content: center;
+}
+#login-form{
+    margin-left :10vw;
+    margin-top: 3vh;
     align-items:center;
     justify-content: center;
 }
