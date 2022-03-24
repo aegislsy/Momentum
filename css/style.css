@@ -99,7 +99,16 @@ button:hover{
     align-items:center;
     justify-content: center;
 }
-.list{
+.list1{
     position:relative;
+    display:flex;
+    width:100%;
+}
+#todo-form{
+    width:100%;
+}
+
+.list2{
+    display:block;
     align-items: stretch;
 }
