@@ -101,14 +101,10 @@ button:hover{
 }
 .list1{
     position:relative;
-    display:flex;
-    width:100%;
-}
-#todo-form{
-    width:100%;
+    display:block;
 }
 
 .list2{
     display:block;
-    align-items: stretch;
+    justify-content: stretch;
 }
