@@ -99,12 +99,20 @@ button:hover{
     align-items:center;
     justify-content: center;
 }
-.list1{
-    position:relative;
-    display:block;
-}
+#todo-list{
+    display: inline-block;
+    position: absolute;
 
+}
+#todo-form{
+    display: block;
+    align-items: center;
+    margin-top: 2em;
+}
 .list2{
-    display:block;
-    justify-content: stretch;
+    width:30vw;
+    height:28vh;
+    padding:2em;
+    overflow-x:auto;
+    overflow-y:visible;
 }
